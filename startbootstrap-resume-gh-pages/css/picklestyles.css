@@ -1,0 +1,50 @@
+/* Define font color and font family styles */
+body {
+    color: #333; /* Font color */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font family */
+    background-color: rgb(214, 232, 158);
+    text-align: center;
+    margin: 40px;
+}
+
+.styled-div {
+    background-color: #ebefd1; /* Background color */
+    padding: 20px; /* Padding */
+    margin: 20px; /* Margin */
+    border: 2px solid #ccc; /* Border */
+    border-radius: 5px; /* Border radius */
+}
+
+.emphasizedText {
+    font-style: italic;
+    color: #bea61f; /* Font color */
+}
+
+.other{
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+#top {
+    text-decoration: underline;
+}
+
+
+ol {
+    list-style-position: inside;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.container {
+    background-image: url('background.jpg'); /* URL of your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color */
+    padding: 50px; /* Padding */
+    text-align: center; /* Text alignment */
+}
+    
